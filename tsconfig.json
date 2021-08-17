@@ -14,6 +14,16 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "hl-datetimepicker": [
+        "dist/hl-datetimepicker/hl-datetimepicker",
+        "dist/hl-datetimepicker"
+      ],
+      "hl-select": [
+        "dist/hl-select/hl-select",
+        "dist/hl-select"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
