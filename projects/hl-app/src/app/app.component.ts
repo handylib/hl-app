@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'hl-app';
 
 
+  selectedDate : any = new Date();
+
   options : any = [
     {
       name : "Iron Man",

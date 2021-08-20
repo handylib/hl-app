@@ -4,7 +4,10 @@
             <hl-select [options]="options" [label]="'Select a Super Hero'"></hl-select>
         </div>
         <div class="col-lg-4 mt-5">
-            <hl-datetimepicker></hl-datetimepicker>
+            <hl-datetimepicker [label]="'Select a date and time'" [(ngModel)]="selectedDate"></hl-datetimepicker>
+        </div>
+        <div class="col-lg-4 mt-5">
+            <span>{{selectedDate}}</span>
         </div>
     </div>
 </div>
